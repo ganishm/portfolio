@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div>
+    <div id="header">
+        <div class="container">
+          <nav class="headingContainer">
+            <br>
+            <br>
+            <br>
+            <h6 id="top-head"><span id="heading"></span></h6>
+            <ul id="sideMenu">
+                <li class="sideMenu1"><a href="#header">Home</a></li>
+                <li class="sideMenu1"><a href="#about">About</a></li>
+                <li class="sideMenu1"><a href="#projects">Projects</a></li>
+                <li class="sideMenu1"><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </nav>
+
+          </div>
+        </div>
+        </div>
+    <!-- body -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://img.freepik.com/premium-photo/3d-cartoon-using-laptops-sitting-chairs-cute-cartoon-working-playing-social-media-technology-futuristic-poster-ai-generative_43969-5456.jpg">
+                    <br>
+                    
+                   <p class="resume"><a class="simple-box " href="https://drive.google.com/file/d/1AsMyt4MFQRq6o1OmWOAjXhPM5qUiQR35/view" target="_blank">View Resume </a>
+                   </p> 
+                </div>
+                <div class="about-col-2">
+                    <p class="name">Hey there! I'm <span class="name1">Ganishkar Gajendran </span></p>
+                    <h1 class="sub-title1">Full stack developer</h1>
+                    <p class="content">I'm a passionate web developer dedicated to crafting user-friendly, high-performance Applications. With a strong foundation in both front-end and back-end technologies, I bring creativity and technical expertise to every project.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('Experiance')">Experience</p>
+                        <p class="tab-links" onclick="openTab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End</span><br>HTML, CSS, JavaScript, React</li>
+                            <li><span>Back-End</span><br>Node.js</li>
+                            <li><span>Database</span><br>SQL, MongoDB</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="Experiance">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Fresher</li>
+                            <li><span>Backend Developer</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2015</span><br>HSC</li>
+                            <li><span>2019</span><br>BE (Mechanical Engineering)</li>
+                            <li><span>2024</span><br>Fullstack Development course</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    </div> 
+    
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <a href="https://lambent-frangollo-4399f4.netlify.app/" target="_blank">
+
+                <i class="fa-solid fa-code"></i>
+                <h2>My shop</h2>
+                <p>Creating a online shop app using React.js and implementing the react Redux involves building a web application that allows users to view, add items to cart and remove it and increse or decrease qty.</p>
+            </a>
+            </div>
+            <div>
+                <a href="https://jazzy-lolly-60c1d2.netlify.app/" target="_blank">
+                    <i class="fa-solid fa-calendar"></i>
+                <h2>Daily Dress Color Suggestion</h2>
+                <p>This is a MERN stack application that allows users to create, organize, and manage their Daily Dress Colors. With a user-friendly interface, it provides efficient output to what color dress to wear for next 7 days, enabling users to reflect on and navigate through their personal experiences effortlessly. .</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://magical-jalebi-c3d60b.netlify.app/" target="_blank">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>React Routes Project</h2>
+                <p>Creating a  application using React.js and implementing the react router-dom involves building a web application that allows users to routing the different pages in home page.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://main--bespoke-entremet-58d238.netlify.app/" target="_blank">
+                    <i class="fas fa-book"></i>
+                <h2>Library Management System</h2>
+                <p>Our main objective in this project is to create a library management system wherein students can issue books and the admin or librarian can update/delete ....</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://jocular-mousse-d4c177.netlify.app/" target="_blank">
+                    <i class="fas fa-cloud"></i>
+                <h2>Weather app</h2>
+                <p>Creating a  application A sleek weather app providing current conditions and forecasts. User-friendly interface for quick access to accurate weather information..</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://dazzling-cactus-7271be.netlify.app/" target="_blank">
+                    <i class="fas fa-users"></i>
+                <h2>Mentor and student</h2>
+                <p>Node.js-powered Mentor-Student API enabling seamless CRUD operations. Facilitating mentorship connections and student data management through a robust and scalable backend.</p>
+                </a>
+            </div>
+            <!-- <div>
+                <a href="https://ornate-strudel-efbeb0.netlify.app/" target="_blank">
+                    <i class="fa-solid fa-lock"></i> 
+                    <h2>Password Reset</h2>
+                    <p>
+                        This project employs React and Node.js to create a secure password reset flow, featuring user email verification, link generation with expiration, and a responsive Bootstrap-based UI. The clean codebase prioritizes best practices for clarity and reliability..</p>
+                </a>
+            </div>
+            
+            <div>
+                <a href="https://euphonious-lily-ef59df.netlify.app/" target="_blank">
+                    <i class="fa-solid fa-link"></i> 
+                    <h2>URL Shortener</h2>
+                    <p>
+                        This project focuses on building a secure URL shortening web app with user authentication, two-step activation, and a dashboard for tracking URL creation statistics. It ensures a user-friendly experience while prioritizing data security..</p>
+                </a>
+            </div> -->
+            
+
+        </div> 
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contanct-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p style="color: black;"><i class="fas fa-envelope"></i> ganishronl@gmail.com</p>
+        <p style="color: black;"><i class="fa-solid fa-square-phone"></i> 8760266464</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/ganishkar-gajendran-33819b217/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ganishm" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="contanct-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" placeholder="Message" required rows="6"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+           
+            </div>
+           
+        </div>
+       
+          
+    </div>
+    
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Ganishkar Gajendran</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
